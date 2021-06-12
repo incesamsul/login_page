@@ -1,0 +1,133 @@
+.input-group {
+    position: relative;
+}
+
+.icon-wrapper {
+    left: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    font-size: 30px;
+    color: #F5B33D;
+    position: absolute;
+}
+
+.login-icon.smaller {
+    font-size: 25px;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-side {
+    height: 100vh;
+    width: 30%;
+    padding: 100px 50px 0px 50px;
+}
+
+.ilustration-side {
+    background-color: #F5B33D;
+    color: #F8F8F8;
+    height: 100vh;
+    width: 70%;
+}
+
+.brand-wrapper {
+    margin-left: -20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.brand-logo img {
+    width: 70px;
+}
+
+.brand-name span {
+    font-size: 30px;
+    margin-left: -10px;
+    font-weight: 800;
+    color: #F5B33D;
+}
+
+.login-caption {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.login-caption p {
+    font-weight: 400;
+}
+
+.form-custom {
+    background-color: #EFEFEF;
+    border: none;
+    outline: none !important;
+    width: 100%;
+    padding: 15px 15px 15px 60px;
+    color: #F5B33D;
+    border-radius: 90px;
+}
+
+::placeholder {
+    color: #F5B33D;
+    opacity: .7;
+}
+
+.form-custom:focus {
+    outline: none !important;
+}
+
+.btn-custom {
+    border-radius: 90px;
+    padding: 10px 30px 10px 30px;
+    background-color: #F5B33D;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #217e78;
+    color: white;
+}
+
+.text-custom {
+    color: #F5B33D;
+}
+
+.login-ask {
+    margin-top: 30px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.text-bold {
+    font-weight: bolder;
+}
+
+.ilustration img {
+    width: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .ilustration-side {
+        display: none;
+    }
+    .login-side {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .login-wrapper {
+        font-size: 14px;
+    }
+    .login-side {
+        padding: 100px 20px 0px 20px;
+    }
+    .brand-wrapper {
+        margin-left: -10px;
+    }
+}
